@@ -1,11 +1,17 @@
-# 绿王八解释器
+# Brainfuck
 
+Brainfuck is an esoteric programming language created in 1993 by Urban Müller.
 
-bf.c为解释器
-test.out为源代码
+## build
+```
+make
+```
 
-编译bf后
-
-使用
-bf test.out
-可以输出问候语
+## run script
+```
+./bf testing/Hello.bf
+```
+output
+```
+Hello World!
+```
